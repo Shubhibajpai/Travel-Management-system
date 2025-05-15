@@ -1,0 +1,21 @@
+h1{
+    text-align: center;
+}
+.trans-box{
+    margin: 4px 4px;
+}
+.bus-type{
+    display: flex;
+    margin: 20px 14px;
+}
+.bus-type img{
+    width: 20vw;
+    border-radius: 7px;
+}
+.bus-right{
+    margin: 0px 35px;
+}
+.bus-right p{
+    margin: 8px 0px;
+    font-size: 16px;
+}

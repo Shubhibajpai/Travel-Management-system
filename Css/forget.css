@@ -1,0 +1,24 @@
+.forget-password-page {
+    max-width: 31vw;
+    margin: 60px auto;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .forget-password-page input {
+    width: 100%;
+    padding: 10px;
+    margin: 12px 0;
+  }
+  
+  .forget-password-page button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    border: none;
+    color: white;
+    cursor: pointer;
+  }
+  .forget-password-page button:hover {
+    background-color: #0056b3; /* darker shade of blue */
+  }
+  

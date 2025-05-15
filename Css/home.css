@@ -1,0 +1,87 @@
+
+/* section1 css */
+.section1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.left-sec{
+    width: 45vw;
+}
+.left-sec h2{
+  margin: 8px 0px;
+  font-size: 34px;
+}
+.left-sec p{
+    font-size: 20px;
+}
+.right-sec{
+    margin: 18px 2px;
+    
+}
+.right-sec img{
+    border-radius: 11px;
+}
+
+/* section2 */
+.section2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.section2 h2{
+    font-size: 40px;
+    text-align: center;
+
+}
+.vac-img{
+    margin: 14px 4px;
+}
+.vac-img img{
+    width: 80vw;
+    border-radius: 9px;
+    box-shadow: 3px 4px 10px 2px rgb(148, 147, 147);
+}
+.sect2-content{
+    margin: 8px 28px;
+}
+.sect2-content p{
+    font-size: 20px;
+}
+
+.section3{
+    /* background-color: beige; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.section3 h2{
+    /* background-color: rgb(102, 102, 98); */
+    text-align: center;
+    margin: 10px 8px;
+    font-size: 29px;
+}
+.box{
+    width: 80vw;
+    background-color: rgb(209, 208, 206);
+    border: 2px solid black;
+    margin: 8px 8px;
+    padding: 4px 8px;
+    border-radius: 9px;
+    box-shadow: 1px 0px 7px 2px rgb(160, 159, 159);
+}
+.box h3{
+    font-size: 24px;
+}
+.box h4{
+    font-size: 22px;
+    margin: 4px 2px;
+}
+.footer{
+    background-color: rgb(43, 42, 42);
+    color: white;
+    text-align: center;
+    padding: 10px 10px;
+}

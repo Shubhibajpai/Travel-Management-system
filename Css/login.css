@@ -1,0 +1,86 @@
+body {
+    /* background-image: url('images/ro.jpg'); */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+  }
+  
+  h1 {
+    text-align: center;
+    font-size: 42px;
+  }
+  
+  .container {
+    display: flex;
+    margin: 20px auto;
+    flex-direction: column;
+    padding: 10px;
+    width: 25vw;
+    height: 30vw;
+    border: 2px solid black;
+    border-radius: 8px;
+    background-color: white;
+  }
+  
+  .loginForm {
+    margin: 10px 10px;
+  }
+  
+  .field {
+    margin: 16px 4px;
+    font-size: 20px;
+    width: 90%;
+  }
+  
+  .field input {
+    width: 96%;
+    height: 28px;
+    border-radius: 9px;
+    padding: 0px 5px;
+    font-size: 17px;
+  }
+  
+  .login {
+    width: 98%;
+    font-size: 20px;
+    height: 34px;
+    border-radius: 7px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .login:hover {
+    background-color: #0056b3;
+    color: white;
+  }
+  
+  .forget {
+    margin-top: -11px;
+    margin-left: 8px;
+  }
+  
+  .forget a {
+    cursor: pointer;
+    text-decoration: none;
+  }
+  
+  .sign {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .sign a {
+    text-decoration: none;
+    font-size: 20px;
+    cursor: pointer;
+    margin-top: -2px;
+  }
+  
+  .message {
+    color: red;
+    text-align: center;
+    margin-top: 10px;
+  }
+  

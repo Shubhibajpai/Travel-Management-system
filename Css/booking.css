@@ -1,0 +1,81 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff;
+    
+  }
+  .book-sect{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .booking-form {
+    background-color: #fff;
+    
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    width: 100%;
+    max-width: 550px;
+  }
+  .booking-form h2 {
+    text-align: center;
+    color: #333;
+  }
+  .form-group {
+    margin-bottom: 18px;
+  }
+  label {
+    font-weight: bold;
+    color: #333;
+  }
+  input, select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-top: 5px;
+    font-size: 16px;
+  }
+  .submit-btn {
+    width: 100%;
+    padding: 12px;
+    background-color: #007bff;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  .submit-btn:hover {
+    background-color: #0056b3;
+  }
+  .check-prize{
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0px;
+    background-color: #007bff;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  .check-prize:hover{
+    background-color: #0056b3; 
+  }
+h1{
+    text-align: center;
+    margin: 12px 12px;
+}
+.payment{
+
+    display: flex;
+    padding: 14px 12px;
+    justify-content: center;
+}
